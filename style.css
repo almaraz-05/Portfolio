@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    padding: 0;
+
+}
+
+
+.nav-links li {
+    padding: 5px 10px;
+
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+
+body {
+    margin: 0;
+    background-color: #0f172a;    
+    color: white;
+    font-family: Inter, serif;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 80px 20px;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+.hero a {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 20px;
+    background-color: #3b82f6;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 10px;
+    
+}
+
+.hero a:last-child {
+    background: transparent;
+    border: 1px solid #3b82f6
+}
+
+.hero a:active {
+    background-color: white;
+    color: #3b82f6
+}
+
+.about {
+    padding: 0px 20px;
+
+}
+
+.about-header h2 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.about-header .underline {
+    width: 90px;
+    height: 4px;
+    background-color: #3b82f6;
+    border-radius: 10px;
+}
+
+.about p {
+    color: #94a3b8;
+    line-height: 1.7;
+}
+
+.about-grid {
+    margin-top: 35px;
+    display: grid;
+    gap: 18px;
+    grid-template-columns: 1fr;
+}
+
+.about-card {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 14px;
+    padding: 18px;
+}
+
+.about-card h3 {
+    margin: 0 0 10px;
+    color: #3b82f6;
+    font-size: 18px;
+}
+
+.education .edu-head {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 18px;
+
+}
+
+.education h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #3b82f6;
+    font-weight: 700;
+}
+
+.education .edu-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 12px;
+    display: grid;
+    place-items: center;
+    font-size: 22px;
+    border: 1px solid #3b82f6;
+}
+
+.education .edu-item {
+    margin-top: 20px;
+
+}
+
+.education .edu-degree {
+    font-size: 20px;
+    color: #e5e7eb;
+    line-height: 1.2;
+}
+
+.education .edu-school,
+.education .edu-dates {
+    margin-top: 6px;
+    color: #94a3b8;
+    font-size: 15px;
+}
+
+
