@@ -142,8 +142,7 @@ section {
     border-radius: 12px;
     display: grid;
     place-items: center;
-    font-size: 22px;
-    border: 1px solid #3b82f6;
+    font-size: 22px;    
 }
 
 .education .edu-item {
