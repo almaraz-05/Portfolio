@@ -163,4 +163,26 @@ section {
     font-size: 15px;
 }
 
+.section-header h2 {
+    margin: 0;
+    font-size: 40px;
+}
 
+.section-header .underline {
+    width: 90px;
+    height: 4px;
+    background-color: #3b82f6;
+    border-radius: 10px;
+}
+
+.projects-grid {
+    margin-top: 35px;
+    display: grid;
+    gap: 18px;
+    grid-template-rows: 1fr;
+}
+
+.project-card {
+    background: rgba(255,255,255,0.04);
+    
+}
