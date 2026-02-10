@@ -184,5 +184,20 @@ section {
 
 .project-card {
     background: rgba(255,255,255,0.04);
-    
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 14px;
+    padding: 18px;
+
+}
+
+
+.project-card h3 {
+    margin: 0 0 10px;
+    color: #e5e7eb;
+    font-size: 20px;
+}
+
+.project-card p {
+    margin: 0 0 16px;
+    line-height: 1.7;
 }
