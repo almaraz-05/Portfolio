@@ -162,23 +162,14 @@ section {
 }
 
 
-/* Click effect */
-.hero a:hover {
-  color: white;
+.btn:hover {
+  transform: translateY(-1px);
   background-color: #00d492;
-  font-size: 15px;
+  border-color: #00d492;
+  color: #0f172a; /* optional: makes text pop */
 }
 
 
-/* Row containing button + socials */
-.view-projects-socials {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  margin-top: 18px;
-  font-size: 13px;
-}
 
 /* Social links container */
 .view-projects-socials ul {
