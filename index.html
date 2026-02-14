@@ -13,37 +13,38 @@
 
 
     <body>
-        <header>
-            <a class="logo" href="#hero">Josue Almaraz</a>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-
-        </header>
+<header class="top-nav">
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
 
         <main>
             <!-- Hero -->
-            <section id="hero" class="hero">
-             <h1 class="hero-role">Aspiring Web Developer</h1>
-                <p class="hero-subtitle">
-                    Computer science student building responsive web projects and expanding into full-stack development.
-                </p>  
-                <div class="view-projects-socials">
-                    <a href="#projects">View Projects</a>
-                    <ul class="socials">
-                        <li><a href="https://github.com/almaraz-05" target="_blank" rel="noopener">GitHub</a></li>
-                        <li><a href="https://linkedin.com/in/josuealmaraz" target="_blank" rel="noopener">LinkedIn</a></li>
-                        <li><a href="#" aria-label="https://www.instagram.com/josue.almaraz/">Instagram</a></li>
-                        <li><a href="#" aria-label="Discord (add link)">Discord</a></li>
-                    </ul>
-             </div>
-            </section>
+<section id="hero" class="hero hero--minimal">
+<h1 class="hero-role">
+  Hi <span class="animate-wave inline-block">👋🏼</span> I'm 
+</h1>
+
+  <h1 class="hero-name">Josue Almaraz</h1>
+
+  <p class="hero-role-min">Aspiring Web Developer</p>
+
+  <p class="hero-subtitle">
+    Computer science student creating clean, responsive web projects and expanding into full-stack development.
+  </p>
+
+  <div class="hero-actions">
+    <a class="btn btn-outline" href="#projects">Projects</a>
+    <a class="btn btn-solid" href="#contact">Let’s Connect →</a>
+  </div>
+</section>
 
 
 
@@ -54,39 +55,74 @@
                     <div class="underline"></div>
                 </div>
 
-                <div class="about-grid">
-                    <div class="about-card">
-                        <h3>Bio</h3>
-                            <p> I'm a front-end developer focused on building clean, responsive websites.
-                                Right now I'm expanding into full-stack development and strengthening my
-                                JavaScript skills by building real projects and improving my fundamentals.
-                            </p>
-                    </div>
+                <div class="about-layout">
+  <!-- LEFT COLUMN -->
+  <div class="about-left">
+    <!-- Bio -->
+    <article class="about-card bio-card">
+      <div class="card-title">
+        <div class="card-icon" aria-hidden="true">🧾</div>
+        <h3>Bio</h3>
+      </div>
 
-                    <div class="about-card education">
-                        <div class="edu-head">
-                            <div class="edu-icon" aria-hidden="true">🎓</div>
-                            <h3>Education</h3>
-                        </div>
+      <p>
+        I'm an aspiring web developer focused on building clean, responsive websites.
+        Right now I'm expanding into full-stack development and strengthening my
+        JavaScript fundamentals by building real projects.
+      </p>
+    </article>
 
-                        <div class="edu-item">
-                            <div class="edu-degree">Bachelor of Science in Computer Science</div>
-                            <div class="edu-school">Northern Illinois University</div>
-                            <div class="edu-dates">2022 - 2026 (Expected)</div>
-                        </div>
+    <!-- Education + Experience row -->
+    <div class="about-row">
+      <!-- Education -->
+      <article class="about-card education">
+        <div class="card-title">
+          <div class="card-icon" aria-hidden="true">🎓</div>
+          <h3>Education</h3>
+        </div>
 
-                        <div class="edu-item">
-                            <div class="edu-degree">Associate of Arts &amp; Science</div>
-                            <div class="edu-school">Kishwaukee College</div>
-                            <div class="edu-dates">2019 - 2021</div>
-                        </div>
-                    </div>
+        <div class="edu-item">
+          <div class="edu-degree">Bachelor of Science in Computer Science</div>
+          <div class="edu-school">Northern Illinois University</div>
+          <div class="edu-dates">2022 – 2026 (Expected)</div>
+        </div>
 
-                    <div class="about-card">
-                        <h3>Experience</h3>
-                        
-                    </div>
-                </div>
+        <div class="edu-item">
+          <div class="edu-degree">Associate of Arts & Science</div>
+          <div class="edu-school">Kishwaukee College</div>
+          <div class="edu-dates">2019 – 2021</div>
+        </div>
+      </article>
+
+      <!-- Experience -->
+      <article class="about-card experience">
+        <div class="card-title">
+          <div class="card-icon" aria-hidden="true">💼</div>
+          <h3>Experience</h3>
+        </div>
+
+        <div class="exp-item">
+          <div class="exp-role">Barista</div>
+          <div class="exp-company">Starbucks</div>
+          <div class="exp-dates">Apr 2022 – Present</div>
+
+        </div>
+      </article>
+    </div>
+  </div>
+
+  <!-- RIGHT COLUMN -->
+  <aside class="profile-card">
+    <img class="profile-img" src="assets/images/profile.JPG" alt="Photo of Josue Almaraz">
+
+    <h3 class="profile-name">Josue Almaraz</h3>
+    <p class="profile-tagline">Aspiring Web Developer | Building Responsive Web Projects</p>
+
+    <a class="resume-btn" href="Resume.pdf" target="_blank" rel="noopener">
+      Download Resume
+    </a>
+  </aside>
+</div>
 
 
             </section>
