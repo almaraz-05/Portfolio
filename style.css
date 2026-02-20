@@ -563,3 +563,34 @@ section {
   height: 16px;
 }
 
+
+/* ================= CONTACT ================= */
+
+/* CONTACT SECTION */
+
+
+.contact-text {
+  color: #94a3b8;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* ICON ROW */
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+}
+
+/* ICON STYLE */
+.contact-icons img {
+  width: 36px;
+  height: 36px;
+  filter: brightness(0.9);
+  transition: 0.2s ease;
+}
+
+.contact-icons img:hover {
+  transform: translateY(-4px);
+  filter: brightness(1.3);
+}
