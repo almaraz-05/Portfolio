@@ -3,7 +3,7 @@
 This is my personal developer portfolio website built to showcase my projects, skills, and experience as a computer science student and aspiring full-stack developer.
 
 ## 🔗 Live Site
-https://almaraz-05.github.io/Portfolio/
+https://josuealmaraz.netlify.app/
 
 ## 🛠 Tech Stack
 - HTML
